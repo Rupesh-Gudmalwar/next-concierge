@@ -1,0 +1,18 @@
+.base-button {
+  display: flex;
+  width: 100%;
+  padding: 10px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 5px;
+  background: var(--gray-neutral-800, #1f2a37);
+
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
