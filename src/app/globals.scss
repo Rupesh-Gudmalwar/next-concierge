@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "../components/common/common.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +14,9 @@
 body {
   max-width: 640px;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   background: #fff;
   overflow-y: auto;
-  border: 1px solid gray;
+  // border: 1px solid gray;
 }
